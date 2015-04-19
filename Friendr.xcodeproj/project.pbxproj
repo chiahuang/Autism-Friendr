@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDB7CDF01AE344A2009CA374 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB7CDEF1AE344A2009CA374 /* AppDelegate.swift */; };
+		EDB7CDF21AE344A2009CA374 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB7CDF11AE344A2009CA374 /* ViewController.swift */; };
+		EDB7CDF51AE344A2009CA374 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDB7CDF31AE344A2009CA374 /* Main.storyboard */; };
+		EDB7CDF71AE344A2009CA374 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDB7CDF61AE344A2009CA374 /* Images.xcassets */; };
+		EDB7CDFA1AE344A2009CA374 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDB7CDF81AE344A2009CA374 /* LaunchScreen.xib */; };
+		EDB7CE061AE344A3009CA374 /* FriendrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB7CE051AE344A3009CA374 /* FriendrTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDB7CE001AE344A3009CA374 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDB7CDE21AE344A2009CA374 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDB7CDE91AE344A2009CA374;
+			remoteInfo = Friendr;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EDB7CDEA1AE344A2009CA374 /* Friendr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Friendr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDB7CDEE1AE344A2009CA374 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDB7CDEF1AE344A2009CA374 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDB7CDF11AE344A2009CA374 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EDB7CDF41AE344A2009CA374 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDB7CDF61AE344A2009CA374 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EDB7CDF91AE344A2009CA374 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EDB7CDFF1AE344A3009CA374 /* FriendrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FriendrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDB7CE041AE344A3009CA374 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDB7CE051AE344A3009CA374 /* FriendrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendrTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDB7CDE71AE344A2009CA374 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDB7CDFC1AE344A3009CA374 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDB7CDE11AE344A2009CA374 = {
+			isa = PBXGroup;
+			children = (
+				EDB7CDEC1AE344A2009CA374 /* Friendr */,
+				EDB7CE021AE344A3009CA374 /* FriendrTests */,
+				EDB7CDEB1AE344A2009CA374 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDB7CDEB1AE344A2009CA374 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDB7CDEA1AE344A2009CA374 /* Friendr.app */,
+				EDB7CDFF1AE344A3009CA374 /* FriendrTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDB7CDEC1AE344A2009CA374 /* Friendr */ = {
+			isa = PBXGroup;
+			children = (
+				EDB7CDEF1AE344A2009CA374 /* AppDelegate.swift */,
+				EDB7CDF11AE344A2009CA374 /* ViewController.swift */,
+				EDB7CDF31AE344A2009CA374 /* Main.storyboard */,
+				EDB7CDF61AE344A2009CA374 /* Images.xcassets */,
+				EDB7CDF81AE344A2009CA374 /* LaunchScreen.xib */,
+				EDB7CDED1AE344A2009CA374 /* Supporting Files */,
+			);
+			path = Friendr;
+			sourceTree = "<group>";
+		};
+		EDB7CDED1AE344A2009CA374 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDB7CDEE1AE344A2009CA374 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EDB7CE021AE344A3009CA374 /* FriendrTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDB7CE051AE344A3009CA374 /* FriendrTests.swift */,
+				EDB7CE031AE344A3009CA374 /* Supporting Files */,
+			);
+			path = FriendrTests;
+			sourceTree = "<group>";
+		};
+		EDB7CE031AE344A3009CA374 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDB7CE041AE344A3009CA374 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDB7CDE91AE344A2009CA374 /* Friendr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDB7CE091AE344A3009CA374 /* Build configuration list for PBXNativeTarget "Friendr" */;
+			buildPhases = (
+				EDB7CDE61AE344A2009CA374 /* Sources */,
+				EDB7CDE71AE344A2009CA374 /* Frameworks */,
+				EDB7CDE81AE344A2009CA374 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Friendr;
+			productName = Friendr;
+			productReference = EDB7CDEA1AE344A2009CA374 /* Friendr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDB7CDFE1AE344A3009CA374 /* FriendrTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDB7CE0C1AE344A3009CA374 /* Build configuration list for PBXNativeTarget "FriendrTests" */;
+			buildPhases = (
+				EDB7CDFB1AE344A3009CA374 /* Sources */,
+				EDB7CDFC1AE344A3009CA374 /* Frameworks */,
+				EDB7CDFD1AE344A3009CA374 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDB7CE011AE344A3009CA374 /* PBXTargetDependency */,
+			);
+			name = FriendrTests;
+			productName = FriendrTests;
+			productReference = EDB7CDFF1AE344A3009CA374 /* FriendrTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDB7CDE21AE344A2009CA374 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = TeamStringName;
+				TargetAttributes = {
+					EDB7CDE91AE344A2009CA374 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					EDB7CDFE1AE344A3009CA374 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = EDB7CDE91AE344A2009CA374;
+					};
+				};
+			};
+			buildConfigurationList = EDB7CDE51AE344A2009CA374 /* Build configuration list for PBXProject "Friendr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDB7CDE11AE344A2009CA374;
+			productRefGroup = EDB7CDEB1AE344A2009CA374 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDB7CDE91AE344A2009CA374 /* Friendr */,
+				EDB7CDFE1AE344A3009CA374 /* FriendrTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDB7CDE81AE344A2009CA374 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB7CDF51AE344A2009CA374 /* Main.storyboard in Resources */,
+				EDB7CDFA1AE344A2009CA374 /* LaunchScreen.xib in Resources */,
+				EDB7CDF71AE344A2009CA374 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDB7CDFD1AE344A3009CA374 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDB7CDE61AE344A2009CA374 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB7CDF21AE344A2009CA374 /* ViewController.swift in Sources */,
+				EDB7CDF01AE344A2009CA374 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDB7CDFB1AE344A3009CA374 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB7CE061AE344A3009CA374 /* FriendrTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDB7CE011AE344A3009CA374 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDB7CDE91AE344A2009CA374 /* Friendr */;
+			targetProxy = EDB7CE001AE344A3009CA374 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDB7CDF31AE344A2009CA374 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDB7CDF41AE344A2009CA374 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDB7CDF81AE344A2009CA374 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDB7CDF91AE344A2009CA374 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDB7CE071AE344A3009CA374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDB7CE081AE344A3009CA374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDB7CE0A1AE344A3009CA374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Friendr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EDB7CE0B1AE344A3009CA374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Friendr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EDB7CE0D1AE344A3009CA374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FriendrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Friendr.app/Friendr";
+			};
+			name = Debug;
+		};
+		EDB7CE0E1AE344A3009CA374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FriendrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Friendr.app/Friendr";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDB7CDE51AE344A2009CA374 /* Build configuration list for PBXProject "Friendr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDB7CE071AE344A3009CA374 /* Debug */,
+				EDB7CE081AE344A3009CA374 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDB7CE091AE344A3009CA374 /* Build configuration list for PBXNativeTarget "Friendr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDB7CE0A1AE344A3009CA374 /* Debug */,
+				EDB7CE0B1AE344A3009CA374 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EDB7CE0C1AE344A3009CA374 /* Build configuration list for PBXNativeTarget "FriendrTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDB7CE0D1AE344A3009CA374 /* Debug */,
+				EDB7CE0E1AE344A3009CA374 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDB7CDE21AE344A2009CA374 /* Project object */;
+}
