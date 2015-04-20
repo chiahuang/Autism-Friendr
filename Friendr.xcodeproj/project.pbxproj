@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E2E9E2A91AE450DA00A62745 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E2E9E2A81AE450DA00A62745 /* Default-568h@2x.png */; };
+		E2E9E2AF1AE4599B00A62745 /* test.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E2E9E2AE1AE4599B00A62745 /* test.mp4 */; };
 		EDB7CDF01AE344A2009CA374 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB7CDEF1AE344A2009CA374 /* AppDelegate.swift */; };
 		EDB7CDF21AE344A2009CA374 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB7CDF11AE344A2009CA374 /* ViewController.swift */; };
 		EDB7CDF51AE344A2009CA374 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDB7CDF31AE344A2009CA374 /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E2E9E2A81AE450DA00A62745 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E2E9E2AE1AE4599B00A62745 /* test.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = test.mp4; path = ../../Downloads/test.mp4; sourceTree = "<group>"; };
 		EDB7CDEA1AE344A2009CA374 /* Friendr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Friendr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDB7CDEE1AE344A2009CA374 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDB7CDEF1AE344A2009CA374 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +63,8 @@
 		EDB7CDE11AE344A2009CA374 = {
 			isa = PBXGroup;
 			children = (
+				E2E9E2AE1AE4599B00A62745 /* test.mp4 */,
+				E2E9E2A81AE450DA00A62745 /* Default-568h@2x.png */,
 				EDB7CDEC1AE344A2009CA374 /* Friendr */,
 				EDB7CE021AE344A3009CA374 /* FriendrTests */,
 				EDB7CDEB1AE344A2009CA374 /* Products */,
@@ -192,7 +198,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2E9E2AF1AE4599B00A62745 /* test.mp4 in Resources */,
 				EDB7CDF51AE344A2009CA374 /* Main.storyboard in Resources */,
+				E2E9E2A91AE450DA00A62745 /* Default-568h@2x.png in Resources */,
 				EDB7CDFA1AE344A2009CA374 /* LaunchScreen.xib in Resources */,
 				EDB7CDF71AE344A2009CA374 /* Images.xcassets in Resources */,
 			);
@@ -351,6 +359,7 @@
 				INFOPLIST_FILE = Friendr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Release;
 		};
@@ -407,6 +416,7 @@
 				EDB7CE0B1AE344A3009CA374 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EDB7CE0C1AE344A3009CA374 /* Build configuration list for PBXNativeTarget "FriendrTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +425,7 @@
 				EDB7CE0E1AE344A3009CA374 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
