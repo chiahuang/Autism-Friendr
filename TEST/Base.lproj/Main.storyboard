@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="13F1066" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -14,46 +15,52 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4T6-zV-MmB">
-                                <rect key="frame" x="0.0" y="254" width="600" height="92"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
-                                <state key="normal" title="Meet your Friend">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="D7W-Pl-f86" kind="show" id="aq7-h1-eM7"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Friendr" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="duG-yL-UgT">
-                                <rect key="frame" x="279" y="67" width="54" height="21"/>
+                                <rect key="frame" x="363" y="279" width="54" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B3A-N6-5ta">
-                                <rect key="frame" x="0.0" y="354" width="600" height="92"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oB6-pc-WHb">
+                                <rect key="frame" x="306" y="625" width="168" height="69"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="47"/>
                                 <state key="normal" title="Settings">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="vxm-rZ-UgU" kind="show" id="wr3-K9-EoA"/>
+                                    <segue destination="vxm-rZ-UgU" kind="show" id="g2V-Oc-LKl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rX8-cy-z03">
+                                <rect key="frame" x="216" y="477" width="348" height="69"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="47"/>
+                                <state key="normal" title="Meet your Friend">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="D7W-Pl-f86" kind="show" id="Soa-9W-IHB"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="centerX" secondItem="duG-yL-UgT" secondAttribute="centerX" constant="-5.5" id="8H1-nw-1Cz"/>
+                            <constraint firstAttribute="centerX" secondItem="oB6-pc-WHb" secondAttribute="centerX" constant="-6" id="OQ1-Gc-NKc"/>
+                            <constraint firstAttribute="centerX" secondItem="rX8-cy-z03" secondAttribute="centerX" constant="-6" id="Pa4-uH-1hd"/>
+                            <constraint firstAttribute="centerY" secondItem="rX8-cy-z03" secondAttribute="centerY" constant="0.5" id="fDu-a0-ZhU"/>
                             <constraint firstAttribute="centerY" secondItem="duG-yL-UgT" secondAttribute="centerY" constant="223" id="pgs-hC-GV7"/>
+                            <constraint firstAttribute="centerY" secondItem="oB6-pc-WHb" secondAttribute="centerY" constant="-147.5" id="v5m-BK-wMp"/>
                         </constraints>
                     </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="204" y="337"/>
+            <point key="canvasLocation" x="53" y="478"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="qGi-t1-7j2">
@@ -64,16 +71,16 @@
                         <viewControllerLayoutGuide type="bottom" id="col-oT-gdk"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="wnT-GW-Jxo">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CXX-FY-R8x">
-                                <rect key="frame" x="0.0" y="20" width="600" height="44"/>
+                                <rect key="frame" x="0.0" y="20" width="768" height="44"/>
                                 <items>
                                     <navigationItem title="Instructions" id="fVQ-ma-70F">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="a6a-XD-MRd">
                                             <connections>
-                                                <segue destination="BYZ-38-t0r" kind="show" id="GuS-EC-TLR"/>
+                                                <segue destination="BYZ-38-t0r" kind="show" id="WKh-ub-hb9"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
@@ -87,10 +94,12 @@
                             <constraint firstItem="CXX-FY-R8x" firstAttribute="top" secondItem="cUc-qN-oDx" secondAttribute="bottom" id="sRk-vp-atr"/>
                         </constraints>
                     </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="siG-Si-XTf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="902" y="-429"/>
+            <point key="canvasLocation" x="954" y="-697"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Iow-2v-55W">
@@ -101,7 +110,7 @@
                         <viewControllerLayoutGuide type="bottom" id="yIZ-vo-Ja3"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Flo-A8-fqu">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Meet a New Friend" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tQf-kk-R4E">
@@ -110,8 +119,9 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r9u-dD-NyW">
-                                <rect key="frame" x="13" y="77" width="575" height="100"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r9u-dD-NyW">
+                                <rect key="frame" x="76" y="474" width="200" height="74"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="55"/>
                                 <state key="normal" title="Sarah">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -119,51 +129,71 @@
                                     <segue destination="aGY-8t-hwl" kind="show" id="fTz-TW-aZO"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H9U-aN-7Uc">
-                                <rect key="frame" x="13" y="185" width="575" height="100"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="clw-XO-zRL">
+                                <rect key="frame" x="284" y="567" width="200" height="78"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="55"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WV7-il-pf2">
+                                <rect key="frame" x="492" y="567" width="200" height="78"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="55"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Upm-8a-bKf">
+                                <rect key="frame" x="76" y="567" width="200" height="78"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="55"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k8h-qa-pET">
+                                <rect key="frame" x="284" y="633" width="200" height="78"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="55"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H9U-aN-7Uc">
+                                <rect key="frame" x="284" y="474" width="200" height="75"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="55"/>
                                 <state key="normal" title="Bob">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FiX-FF-PgY">
-                                <rect key="frame" x="13" y="276" width="575" height="100"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FiX-FF-PgY">
+                                <rect key="frame" x="492" y="474" width="200" height="75"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="55"/>
                                 <state key="normal" title="David">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dnZ-Mo-6ZX">
-                                <rect key="frame" x="13" y="384" width="575" height="100"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dnZ-Mo-6ZX">
+                                <rect key="frame" x="76" y="633" width="200" height="75"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="55"/>
                                 <state key="normal" title="Paul">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5G6-2H-Oeb">
-                                <rect key="frame" x="13" y="492" width="575" height="100"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5G6-2H-Oeb">
+                                <rect key="frame" x="492" y="633" width="200" height="75"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="55"/>
                                 <state key="normal" title="Mark">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="FiX-FF-PgY" firstAttribute="leading" secondItem="Flo-A8-fqu" secondAttribute="leadingMargin" constant="-3" id="Avf-5u-QcX"/>
-                            <constraint firstAttribute="centerX" secondItem="5G6-2H-Oeb" secondAttribute="centerX" id="Blr-bi-CY6"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="dnZ-Mo-6ZX" secondAttribute="trailing" constant="-4" id="LuQ-aY-hrl"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="5G6-2H-Oeb" secondAttribute="trailing" constant="-4" id="QEI-Vw-h7u"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="FiX-FF-PgY" secondAttribute="trailing" constant="-4" id="St5-n3-rCK"/>
-                            <constraint firstItem="r9u-dD-NyW" firstAttribute="leading" secondItem="Flo-A8-fqu" secondAttribute="leadingMargin" constant="-3" id="TNe-QM-iIH"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="r9u-dD-NyW" secondAttribute="trailing" constant="-4" id="Wwv-dz-dcg"/>
-                            <constraint firstAttribute="centerY" secondItem="5G6-2H-Oeb" secondAttribute="centerY" id="cQI-9z-Gl6"/>
-                            <constraint firstItem="H9U-aN-7Uc" firstAttribute="leading" secondItem="Flo-A8-fqu" secondAttribute="leadingMargin" constant="-3" id="dHV-dd-OAb"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="H9U-aN-7Uc" secondAttribute="trailing" constant="-4" id="iAK-mh-LNV"/>
-                            <constraint firstItem="dnZ-Mo-6ZX" firstAttribute="leading" secondItem="Flo-A8-fqu" secondAttribute="leadingMargin" constant="-3" id="sPg-YJ-V5c"/>
-                            <constraint firstItem="5G6-2H-Oeb" firstAttribute="leading" secondItem="Flo-A8-fqu" secondAttribute="leadingMargin" constant="-3" id="wFc-cj-uNM"/>
-                        </constraints>
                     </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0yj-E4-wwt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1155" y="337"/>
+            <point key="canvasLocation" x="975" y="471"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="GHN-Y4-jZZ">
@@ -174,7 +204,7 @@
                         <viewControllerLayoutGuide type="bottom" id="ejx-3c-YRr"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="5xe-YW-QFD">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What is the emotion the friend is feeling?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PK1-4a-Mbu">
@@ -219,7 +249,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Tu-p3-Sku" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1858" y="337"/>
+            <point key="canvasLocation" x="1868" y="471"/>
         </scene>
         <!--View Controller2-->
         <scene sceneID="Y5n-eU-EeO">
@@ -238,7 +268,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3tZ-YZ-b26" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2526" y="337"/>
+            <point key="canvasLocation" x="2798" y="337"/>
         </scene>
     </scenes>
     <resources>

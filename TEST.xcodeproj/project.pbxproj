@@ -13,14 +13,7 @@
 		E25BE2E01AE45C250078C504 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E25BE2DF1AE45C250078C504 /* Images.xcassets */; };
 		E25BE2E31AE45C250078C504 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E25BE2E11AE45C250078C504 /* LaunchScreen.xib */; };
 		E25BE2EF1AE45C250078C504 /* TESTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25BE2EE1AE45C250078C504 /* TESTTests.swift */; };
-		E25BE2F91AE45DD80078C504 /* test.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E25BE2F81AE45DD80078C504 /* test.mp4 */; };
-		E25BE3071AE477540078C504 /* Happy.png in Resources */ = {isa = PBXBuildFile; fileRef = E25BE3021AE477540078C504 /* Happy.png */; };
-		E25BE3091AE477540078C504 /* Sad.png in Resources */ = {isa = PBXBuildFile; fileRef = E25BE3041AE477540078C504 /* Sad.png */; };
-		E25BE3131AE478EF0078C504 /* Emotions in Resources */ = {isa = PBXBuildFile; fileRef = E25BE3121AE478EF0078C504 /* Emotions */; };
 		E25BE3171AE47EAD0078C504 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25BE3161AE47EAD0078C504 /* ViewController2.swift */; };
-		E261F0891AE483FD00689506 /* Mad.png in Resources */ = {isa = PBXBuildFile; fileRef = E261F0861AE483FD00689506 /* Mad.png */; };
-		E261F08A1AE483FD00689506 /* Scared.png in Resources */ = {isa = PBXBuildFile; fileRef = E261F0871AE483FD00689506 /* Scared.png */; };
-		E261F08B1AE483FD00689506 /* Worried.png in Resources */ = {isa = PBXBuildFile; fileRef = E261F0881AE483FD00689506 /* Worried.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,14 +37,7 @@
 		E25BE2E81AE45C250078C504 /* TESTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TESTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E25BE2ED1AE45C250078C504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E25BE2EE1AE45C250078C504 /* TESTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TESTTests.swift; sourceTree = "<group>"; };
-		E25BE2F81AE45DD80078C504 /* test.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = test.mp4; path = ../../Downloads/test.mp4; sourceTree = "<group>"; };
-		E25BE3021AE477540078C504 /* Happy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Happy.png; path = ../../../Downloads/Emotions/Happy.png; sourceTree = "<group>"; };
-		E25BE3041AE477540078C504 /* Sad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Sad.png; path = ../../../Downloads/Emotions/Sad.png; sourceTree = "<group>"; };
-		E25BE3121AE478EF0078C504 /* Emotions */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Emotions; path = ../../../Downloads/Emotions; sourceTree = "<group>"; };
 		E25BE3161AE47EAD0078C504 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
-		E261F0861AE483FD00689506 /* Mad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Mad.png; path = ../../../Downloads/Emotions/Mad.png; sourceTree = "<group>"; };
-		E261F0871AE483FD00689506 /* Scared.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Scared.png; path = ../../../Downloads/Emotions/Scared.png; sourceTree = "<group>"; };
-		E261F0881AE483FD00689506 /* Worried.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Worried.png; path = ../../../Downloads/Emotions/Worried.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +61,6 @@
 		E25BE2CA1AE45C250078C504 = {
 			isa = PBXGroup;
 			children = (
-				E25BE2F81AE45DD80078C504 /* test.mp4 */,
 				E25BE2D51AE45C250078C504 /* TEST */,
 				E25BE2EB1AE45C250078C504 /* TESTTests */,
 				E25BE2D41AE45C250078C504 /* Products */,
@@ -108,12 +93,6 @@
 		E25BE2D61AE45C250078C504 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				E25BE3121AE478EF0078C504 /* Emotions */,
-				E25BE3021AE477540078C504 /* Happy.png */,
-				E261F0861AE483FD00689506 /* Mad.png */,
-				E261F0871AE483FD00689506 /* Scared.png */,
-				E261F0881AE483FD00689506 /* Worried.png */,
-				E25BE3041AE477540078C504 /* Sad.png */,
 				E25BE2D71AE45C250078C504 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -216,13 +195,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E25BE3131AE478EF0078C504 /* Emotions in Resources */,
-				E261F08A1AE483FD00689506 /* Scared.png in Resources */,
-				E25BE3091AE477540078C504 /* Sad.png in Resources */,
-				E25BE3071AE477540078C504 /* Happy.png in Resources */,
-				E25BE2F91AE45DD80078C504 /* test.mp4 in Resources */,
-				E261F0891AE483FD00689506 /* Mad.png in Resources */,
-				E261F08B1AE483FD00689506 /* Worried.png in Resources */,
 				E25BE2DE1AE45C250078C504 /* Main.storyboard in Resources */,
 				E25BE2E31AE45C250078C504 /* LaunchScreen.xib in Resources */,
 				E25BE2E01AE45C250078C504 /* Images.xcassets in Resources */,
@@ -375,6 +347,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TEST/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -386,6 +359,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TEST/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
