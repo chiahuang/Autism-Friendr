@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Friendr.xcscheme</key>
+		<key>TEST.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>EDB7CDE91AE344A2009CA374</key>
+		<key>E25BE2D21AE45C250078C504</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>EDB7CDFE1AE344A3009CA374</key>
+		<key>E25BE2E71AE45C250078C504</key>
 		<dict>
 			<key>primary</key>
 			<true/>

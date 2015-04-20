@@ -1,15 +1,15 @@
 //
-//  FriendrTests.swift
-//  FriendrTests
+//  TESTTests.swift
+//  TESTTests
 //
-//  Created by Kay Lab on 4/18/15.
-//  Copyright (c) 2015 TeamStringName. All rights reserved.
+//  Created by Kevin Chen on 4/19/15.
+//  Copyright (c) 2015 Kevin Chen. All rights reserved.
 //
 
 import UIKit
 import XCTest
 
-class FriendrTests: XCTestCase {
+class TESTTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

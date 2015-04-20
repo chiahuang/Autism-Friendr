@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4T6-zV-MmB">
+                                <rect key="frame" x="0.0" y="254" width="600" height="92"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <state key="normal" title="Meet your Friend">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="D7W-Pl-f86" kind="show" id="aq7-h1-eM7"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Friendr" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="duG-yL-UgT">
+                                <rect key="frame" x="279" y="67" width="54" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B3A-N6-5ta">
+                                <rect key="frame" x="0.0" y="354" width="600" height="92"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <state key="normal" title="Settings">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="vxm-rZ-UgU" kind="show" id="wr3-K9-EoA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="duG-yL-UgT" secondAttribute="centerX" constant="-5.5" id="8H1-nw-1Cz"/>
+                            <constraint firstAttribute="centerY" secondItem="duG-yL-UgT" secondAttribute="centerY" constant="223" id="pgs-hC-GV7"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="204" y="337"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="qGi-t1-7j2">
+            <objects>
+                <viewController id="vxm-rZ-UgU" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cUc-qN-oDx"/>
+                        <viewControllerLayoutGuide type="bottom" id="col-oT-gdk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wnT-GW-Jxo">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CXX-FY-R8x">
+                                <rect key="frame" x="0.0" y="20" width="600" height="44"/>
+                                <items>
+                                    <navigationItem title="Instructions" id="fVQ-ma-70F">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="a6a-XD-MRd">
+                                            <connections>
+                                                <segue destination="BYZ-38-t0r" kind="show" id="GuS-EC-TLR"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="CXX-FY-R8x" firstAttribute="leading" secondItem="wnT-GW-Jxo" secondAttribute="leadingMargin" constant="-16" id="HU1-N8-Oej"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="CXX-FY-R8x" secondAttribute="trailing" constant="-16" id="ddk-lB-WNc"/>
+                            <constraint firstItem="CXX-FY-R8x" firstAttribute="top" secondItem="cUc-qN-oDx" secondAttribute="bottom" id="sRk-vp-atr"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="siG-Si-XTf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="902" y="-429"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Iow-2v-55W">
+            <objects>
+                <viewController id="D7W-Pl-f86" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PuN-Qx-yLj"/>
+                        <viewControllerLayoutGuide type="bottom" id="yIZ-vo-Ja3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Flo-A8-fqu">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Meet a New Friend" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tQf-kk-R4E">
+                                <rect key="frame" x="225" y="0.0" width="164" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r9u-dD-NyW">
+                                <rect key="frame" x="13" y="77" width="575" height="100"/>
+                                <state key="normal" title="Sarah">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="aGY-8t-hwl" kind="show" id="fTz-TW-aZO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H9U-aN-7Uc">
+                                <rect key="frame" x="13" y="185" width="575" height="100"/>
+                                <state key="normal" title="Bob">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FiX-FF-PgY">
+                                <rect key="frame" x="13" y="276" width="575" height="100"/>
+                                <state key="normal" title="David">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dnZ-Mo-6ZX">
+                                <rect key="frame" x="13" y="384" width="575" height="100"/>
+                                <state key="normal" title="Paul">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5G6-2H-Oeb">
+                                <rect key="frame" x="13" y="492" width="575" height="100"/>
+                                <state key="normal" title="Mark">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="FiX-FF-PgY" firstAttribute="leading" secondItem="Flo-A8-fqu" secondAttribute="leadingMargin" constant="-3" id="Avf-5u-QcX"/>
+                            <constraint firstAttribute="centerX" secondItem="5G6-2H-Oeb" secondAttribute="centerX" id="Blr-bi-CY6"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="dnZ-Mo-6ZX" secondAttribute="trailing" constant="-4" id="LuQ-aY-hrl"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="5G6-2H-Oeb" secondAttribute="trailing" constant="-4" id="QEI-Vw-h7u"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="FiX-FF-PgY" secondAttribute="trailing" constant="-4" id="St5-n3-rCK"/>
+                            <constraint firstItem="r9u-dD-NyW" firstAttribute="leading" secondItem="Flo-A8-fqu" secondAttribute="leadingMargin" constant="-3" id="TNe-QM-iIH"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="r9u-dD-NyW" secondAttribute="trailing" constant="-4" id="Wwv-dz-dcg"/>
+                            <constraint firstAttribute="centerY" secondItem="5G6-2H-Oeb" secondAttribute="centerY" id="cQI-9z-Gl6"/>
+                            <constraint firstItem="H9U-aN-7Uc" firstAttribute="leading" secondItem="Flo-A8-fqu" secondAttribute="leadingMargin" constant="-3" id="dHV-dd-OAb"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="H9U-aN-7Uc" secondAttribute="trailing" constant="-4" id="iAK-mh-LNV"/>
+                            <constraint firstItem="dnZ-Mo-6ZX" firstAttribute="leading" secondItem="Flo-A8-fqu" secondAttribute="leadingMargin" constant="-3" id="sPg-YJ-V5c"/>
+                            <constraint firstItem="5G6-2H-Oeb" firstAttribute="leading" secondItem="Flo-A8-fqu" secondAttribute="leadingMargin" constant="-3" id="wFc-cj-uNM"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0yj-E4-wwt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1155" y="337"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="GHN-Y4-jZZ">
+            <objects>
+                <viewController id="aGY-8t-hwl" customClass="ViewController" customModule="TEST" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cbx-gT-hMi"/>
+                        <viewControllerLayoutGuide type="bottom" id="ejx-3c-YRr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5xe-YW-QFD">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What is the emotion the friend is feeling?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PK1-4a-Mbu">
+                                <rect key="frame" x="144" y="52" width="313" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7To-Fz-5p0">
+                                <rect key="frame" x="415" y="132" width="87" height="133"/>
+                                <state key="normal" title="Button" image="Mad.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mVb-3b-K5l">
+                                <rect key="frame" x="113" y="95" width="115" height="164"/>
+                                <state key="normal" title="Button" image="Happy.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9g9-pB-DIj">
+                                <rect key="frame" x="396" y="328" width="93" height="107"/>
+                                <state key="normal" title="Button" image="Scared.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GKO-fM-qcn">
+                                <rect key="frame" x="142" y="288" width="95" height="155"/>
+                                <state key="normal" title="Button" image="Sad.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mOt-cn-aGE">
+                                <rect key="frame" x="257" y="406" width="87" height="146"/>
+                                <state key="normal" title="Button" image="Worried.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Tu-p3-Sku" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1858" y="337"/>
+        </scene>
+        <!--View Controller2-->
+        <scene sceneID="Y5n-eU-EeO">
+            <objects>
+                <viewController id="Kvz-d4-XOY" customClass="ViewController2" customModule="TEST" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bHS-vC-8jz"/>
+                        <viewControllerLayoutGuide type="bottom" id="hQa-rq-Mt9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="IQO-oR-lrG">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="NaV-wq-JRF"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3tZ-YZ-b26" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2526" y="337"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Happy.png" width="174" height="258"/>
+        <image name="Mad.png" width="155" height="260"/>
+        <image name="Sad.png" width="174" height="258"/>
+        <image name="Scared.png" width="176" height="258"/>
+        <image name="Worried.png" width="158" height="260"/>
+    </resources>
+</document>
