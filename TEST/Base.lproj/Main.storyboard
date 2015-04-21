@@ -251,25 +251,6 @@
             </objects>
             <point key="canvasLocation" x="1868" y="471"/>
         </scene>
-        <!--View Controller2-->
-        <scene sceneID="Y5n-eU-EeO">
-            <objects>
-                <viewController id="Kvz-d4-XOY" customClass="ViewController2" customModule="TEST" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="bHS-vC-8jz"/>
-                        <viewControllerLayoutGuide type="bottom" id="hQa-rq-Mt9"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="IQO-oR-lrG">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="NaV-wq-JRF"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="3tZ-YZ-b26" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2798" y="337"/>
-        </scene>
     </scenes>
     <resources>
         <image name="Happy.png" width="174" height="258"/>

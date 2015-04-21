@@ -2,7 +2,6 @@
 //  ViewController.swift
 //  Friendr
 //
-//  Created by Kay Lab on 4/18/15.
 //  Copyright (c) 2015 TeamStringName. All rights reserved.
 //
 
