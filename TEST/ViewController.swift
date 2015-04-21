@@ -48,13 +48,13 @@ class ViewController: UIViewController {
     @IBOutlet weak var mad: UIButton!
     override func prepareForSegue(segue: (UIStoryboardSegue!), sender: AnyObject!) {
         if (segue.identifier == "happy") {
-            var svc = segue!.destinationViewController as ViewController2;
+            var svc = segue!.destinationViewController as! ViewController2;
             
             //svc.toPass = textField.text
             
         }
         else if(segue.identifier == "sad") {
-            var svc = segue!.destinationViewController as
+            var svc = segue!.destinationViewController as!
             ViewController2;
             //svc.toPass = textField.text
         }
