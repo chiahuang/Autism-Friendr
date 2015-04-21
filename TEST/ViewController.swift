@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     var moviePlayer : MPMoviePlayerController?
     
     func playVideo() {
-        let path = NSBundle.mainBundle().pathForResource("test", ofType:"mp4")
+        let path = NSBundle.mainBundle().pathForResource("HappySarah", ofType:"mp4")
         let url = NSURL.fileURLWithPath(path!)
         moviePlayer = MPMoviePlayerController(contentURL: url)
         if let player = moviePlayer {
