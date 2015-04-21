@@ -195,6 +195,36 @@
             </objects>
             <point key="canvasLocation" x="975" y="471"/>
         </scene>
+        <!--View Controller2-->
+        <scene sceneID="Wxh-9e-QCt">
+            <objects>
+                <viewController id="euN-63-udD" customClass="ViewController2" customModule="TEST" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="krP-jb-xlX"/>
+                        <viewControllerLayoutGuide type="bottom" id="fVY-nM-lGM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Obp-0c-Eas">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TESTING TESTING" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nCE-uQ-ovz">
+                                <rect key="frame" x="301" y="101" width="147" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="nCE-uQ-ovz" secondAttribute="centerX" constant="10" id="MwO-8h-gf5"/>
+                            <constraint firstItem="nCE-uQ-ovz" firstAttribute="top" secondItem="krP-jb-xlX" secondAttribute="bottom" constant="81" id="wGu-Gj-TqI"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dim-lQ-SKG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2706" y="-403"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="GHN-Y4-jZZ">
             <objects>
@@ -224,6 +254,9 @@
                                 <state key="normal" title="Button" image="Happy.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="euN-63-udD" kind="show" identifier="happy" id="ugb-fY-GH2"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9g9-pB-DIj">
                                 <rect key="frame" x="396" y="328" width="93" height="107"/>
@@ -236,6 +269,9 @@
                                 <state key="normal" title="Button" image="Sad.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="euN-63-udD" kind="show" identifier="sad" id="4Vo-7O-Y7s"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mOt-cn-aGE">
                                 <rect key="frame" x="257" y="406" width="87" height="146"/>
@@ -259,4 +295,7 @@
         <image name="Scared.png" width="176" height="258"/>
         <image name="Worried.png" width="158" height="260"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="4Vo-7O-Y7s"/>
+    </inferredMetricsTieBreakers>
 </document>
