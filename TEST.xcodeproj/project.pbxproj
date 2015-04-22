@@ -21,6 +21,10 @@
 		EDB7CE1A1AE5DFEC009CA374 /* Scared.png in Resources */ = {isa = PBXBuildFile; fileRef = EDB7CE141AE5DFEC009CA374 /* Scared.png */; };
 		EDB7CE1B1AE5DFEC009CA374 /* test.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = EDB7CE151AE5DFEC009CA374 /* test.mp4 */; };
 		EDB7CE1C1AE5DFEC009CA374 /* Worried.png in Resources */ = {isa = PBXBuildFile; fileRef = EDB7CE161AE5DFEC009CA374 /* Worried.png */; };
+		EDF750351AE819EE0082EE97 /* FriendScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF750341AE819EE0082EE97 /* FriendScreen.swift */; };
+		EDF750361AE826360082EE97 /* SadJenny.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E23232C11AE73DCF00D33D36 /* SadJenny.mp4 */; };
+		EDF750371AE826360082EE97 /* ScaredDavid.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E23232C21AE73DD500D33D36 /* ScaredDavid.mp4 */; };
+		EDF750381AE826360082EE97 /* MadBrian.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E23232C01AE73DC800D33D36 /* MadBrian.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +59,7 @@
 		EDB7CE141AE5DFEC009CA374 /* Scared.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Scared.png; path = Emotions/Scared.png; sourceTree = SOURCE_ROOT; };
 		EDB7CE151AE5DFEC009CA374 /* test.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = test.mp4; path = Emotions/test.mp4; sourceTree = SOURCE_ROOT; };
 		EDB7CE161AE5DFEC009CA374 /* Worried.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Worried.png; path = Emotions/Worried.png; sourceTree = SOURCE_ROOT; };
+		EDF750341AE819EE0082EE97 /* FriendScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +104,7 @@
 				E25BE2D81AE45C250078C504 /* AppDelegate.swift */,
 				E25BE2DA1AE45C250078C504 /* ViewController.swift */,
 				E25BE2DC1AE45C250078C504 /* Main.storyboard */,
+				EDF750341AE819EE0082EE97 /* FriendScreen.swift */,
 				E25BE2DF1AE45C250078C504 /* Images.xcassets */,
 				E25BE2E11AE45C250078C504 /* LaunchScreen.xib */,
 				E25BE2D61AE45C250078C504 /* Supporting Files */,
@@ -222,6 +228,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDF750361AE826360082EE97 /* SadJenny.mp4 in Resources */,
+				EDF750371AE826360082EE97 /* ScaredDavid.mp4 in Resources */,
+				EDF750381AE826360082EE97 /* MadBrian.mp4 in Resources */,
 				EDB7CE181AE5DFEC009CA374 /* Mad.png in Resources */,
 				EDB7CE191AE5DFEC009CA374 /* Sad.png in Resources */,
 				EDB7CE171AE5DFEC009CA374 /* Happy.png in Resources */,
@@ -250,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E25BE2DB1AE45C250078C504 /* ViewController.swift in Sources */,
+				EDF750351AE819EE0082EE97 /* FriendScreen.swift in Sources */,
 				E25BE2D91AE45C250078C504 /* AppDelegate.swift in Sources */,
 				E25BE3171AE47EAD0078C504 /* ViewController2.swift in Sources */,
 			);
