@@ -34,6 +34,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E23232C01AE73DC800D33D36 /* MadBrian.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = MadBrian.mp4; sourceTree = SOURCE_ROOT; };
+		E23232C11AE73DCF00D33D36 /* SadJenny.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = SadJenny.mp4; sourceTree = SOURCE_ROOT; };
+		E23232C21AE73DD500D33D36 /* ScaredDavid.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = ScaredDavid.mp4; sourceTree = SOURCE_ROOT; };
 		E25BE2D31AE45C250078C504 /* TEST.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TEST.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E25BE2D71AE45C250078C504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E25BE2D81AE45C250078C504 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -112,6 +115,9 @@
 				EDB7CE131AE5DFEC009CA374 /* Sad.png */,
 				EDB7CE141AE5DFEC009CA374 /* Scared.png */,
 				EDB7CE151AE5DFEC009CA374 /* test.mp4 */,
+				E23232C11AE73DCF00D33D36 /* SadJenny.mp4 */,
+				E23232C21AE73DD500D33D36 /* ScaredDavid.mp4 */,
+				E23232C01AE73DC800D33D36 /* MadBrian.mp4 */,
 				EDB7CE161AE5DFEC009CA374 /* Worried.png */,
 				EDB7CE0F1AE5DDEC009CA374 /* HappySarah.mp4 */,
 				E25BE2D71AE45C250078C504 /* Info.plist */,
