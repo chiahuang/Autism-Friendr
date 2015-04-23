@@ -70,10 +70,10 @@ class ViewController: UIViewController {
     @IBOutlet weak var scared: UIButton!
     @IBOutlet weak var worried: UIButton!
     @IBOutlet weak var mad: UIButton!
-    override func prepareForSegue(segue: (UIStoryboardSegue!), sender: AnyObject!) {
+    /*override func prepareForSegue(segue: (UIStoryboardSegue!), sender: AnyObject!) {
         if (segue.identifier == "happy") {
             let answer = "happy"
-            var svc = segue!.destinationViewController as! ViewController2;
+            //var svc = segue!.destinationViewController as! ViewController2;
             
             //svc.toPass = textField.text
             
@@ -84,7 +84,7 @@ class ViewController: UIViewController {
             ViewController2;
             //svc.toPass = textField.text
         }
-    }
+    }*/
     //@IBOutlet weak var button1: UIButton!
     
     override func viewDidLoad() {
