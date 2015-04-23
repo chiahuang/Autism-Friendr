@@ -25,7 +25,7 @@ class ViewController: UIViewController {
         if let player = moviePlayer {
             player.view.frame = self.view.bounds
             player.prepareToPlay()
-            player.scalingMode = .AspectFill
+            player.view.sizeToFit()
             self.view.addSubview(player.view)
         }
     }
