@@ -16,22 +16,22 @@ class FriendScreen: UIViewController {
     
     @IBAction func sarahPressed(sender: AnyObject) {
         friendPicked = "Sarah"
-        println(friendPicked)
+        //println(friendPicked)
     }
     
     @IBAction func brianPicked(sender: AnyObject) {
         friendPicked = "Brian"
-        println(friendPicked)
+        //println(friendPicked)
     }
     
     @IBAction func davidPicked(sender: AnyObject) {
         friendPicked = "David"
-        println(friendPicked)
+        //println(friendPicked)
     }
     
     @IBAction func jennyPicked(sender: AnyObject) {
         friendPicked = "Jenny"
-        println(friendPicked)
+        //println(friendPicked)
     }
     
     override func prepareForSegue(segue: (UIStoryboardSegue!), sender: AnyObject!) {

@@ -8,16 +8,15 @@
 import UIKit
 import MediaPlayer
 
-let answer = "nothing"
-
 class ViewController: UIViewController {
 
     var moviePlayer : MPMoviePlayerController?
     var friendPressed:String!;
+    var emotion:String!;
 
     
     func playVideo() {
-        println(selectVideo(friendPressed))
+        //println(selectVideo(friendPressed))
         var video: String! = selectVideo(friendPressed)
         let path = NSBundle.mainBundle().pathForResource(video, ofType:"mp4")
         let url = NSURL.fileURLWithPath(path!)
@@ -35,7 +34,7 @@ class ViewController: UIViewController {
             return "HappySarah"
         }
         else if(friend == "Brian"){
-            println("MadBrian")
+            //println("MadBrian")
             return "MadBrian"
         }
         else if(friend == "David") {
@@ -51,11 +50,11 @@ class ViewController: UIViewController {
     
     
     func removeSubview(){
-            println("Start remove sibview")
+            //println("Start remove sibview")
             if let viewWithTag = self.view.viewWithTag(100) {
                 viewWithTag.removeFromSuperview()
             }else{
-                println("No!")
+                //println("No!")
             }
     }
     
@@ -65,25 +64,24 @@ class ViewController: UIViewController {
         }
     }
     
-    @IBOutlet weak var happy: UIButton!
-    @IBOutlet weak var sad: UIButton!
-    @IBOutlet weak var scared: UIButton!
-    @IBOutlet weak var worried: UIButton!
-    @IBOutlet weak var mad: UIButton!
-    /*override func prepareForSegue(segue: (UIStoryboardSegue!), sender: AnyObject!) {
-        if (segue.identifier == "happy") {
-            let answer = "happy"
-            //var svc = segue!.destinationViewController as! ViewController2;
-            
-            //svc.toPass = textField.text
-            
-        }
-        else if(segue.identifier == "sad") {
-            let answer = "sad"
-            var svc = segue!.destinationViewController as!
-            ViewController2;
-            //svc.toPass = textField.text
-        }
+    
+    @IBAction func madPressed(sender: AnyObject) {
+        emotion = "mad"
+    }
+    @IBAction func happyPressed(sender: AnyObject) {
+        emotion = "happy"
+    }
+    @IBAction func sadPressed(sender: AnyObject) {
+        emotion = "sad"
+    }
+    @IBAction func scaredPressed(sender: AnyObject) {
+        emotion = "scared"
+    }
+    
+    
+    /*
+    override func prepareForSegue(segue: (UIStoryboardSegue!), sender: AnyObject!) {
+        println("here")
     }*/
     //@IBOutlet weak var button1: UIButton!
     
@@ -96,9 +94,9 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         playVideo()
         removeSubview()
-        
 
     }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

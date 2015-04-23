@@ -125,32 +125,6 @@
             </objects>
             <point key="canvasLocation" x="954" y="-697"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="8yV-Vi-IxO">
-            <objects>
-                <viewController id="XMe-IB-vCe" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="oZY-9R-nwq"/>
-                        <viewControllerLayoutGuide type="bottom" id="3uG-dJ-QDz"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="TNp-jd-ozn">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="INCORRECT" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oGQ-LM-9xk">
-                                <rect key="frame" x="347" y="170" width="99" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="cdP-8L-Hd9" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2706" y="689"/>
-        </scene>
         <!--Friend Screen-->
         <scene sceneID="Iow-2v-55W">
             <objects>
@@ -238,36 +212,6 @@
             </objects>
             <point key="canvasLocation" x="963" y="471"/>
         </scene>
-        <!--View Controller2-->
-        <scene sceneID="Wxh-9e-QCt">
-            <objects>
-                <viewController id="euN-63-udD" customClass="ViewController2" customModule="TEST" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="krP-jb-xlX"/>
-                        <viewControllerLayoutGuide type="bottom" id="fVY-nM-lGM"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Obp-0c-Eas">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="CORRECT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nCE-uQ-ovz">
-                                <rect key="frame" x="334" y="101" width="82" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstAttribute="centerX" secondItem="nCE-uQ-ovz" secondAttribute="centerX" constant="10" id="MwO-8h-gf5"/>
-                            <constraint firstItem="nCE-uQ-ovz" firstAttribute="top" secondItem="krP-jb-xlX" secondAttribute="bottom" constant="81" id="wGu-Gj-TqI"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dim-lQ-SKG" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2706" y="-403"/>
-        </scene>
         <!--View Controller-->
         <scene sceneID="GHN-Y4-jZZ">
             <objects>
@@ -288,6 +232,10 @@
                                 <state key="normal" title="Button" image="Mad.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="madPressed:" destination="aGY-8t-hwl" eventType="touchUpInside" id="G6i-E9-tF8"/>
+                                    <segue destination="YuY-kz-0Jx" kind="show" id="CUT-Vz-6M2"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mVb-3b-K5l">
                                 <rect key="frame" x="464" y="275" width="130" height="180"/>
@@ -295,7 +243,8 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="euN-63-udD" kind="show" identifier="happy" id="ugb-fY-GH2"/>
+                                    <action selector="happyPressed:" destination="aGY-8t-hwl" eventType="touchUpInside" id="7te-Nb-OnN"/>
+                                    <segue destination="YuY-kz-0Jx" kind="show" id="Uz3-eg-YTm"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9g9-pB-DIj">
@@ -303,12 +252,19 @@
                                 <state key="normal" title="Button" image="Scared.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="scaredPressed:" destination="aGY-8t-hwl" eventType="touchUpInside" id="mPz-Xa-d9L"/>
+                                    <segue destination="YuY-kz-0Jx" kind="show" id="N3e-9f-HlJ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mOt-cn-aGE">
                                 <rect key="frame" x="308" y="492" width="130" height="180"/>
                                 <state key="normal" title="Button" image="Worried.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="YuY-kz-0Jx" kind="show" id="YXM-Zc-Ysf"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GKO-fM-qcn">
                                 <rect key="frame" x="145" y="667" width="130" height="180"/>
@@ -316,7 +272,8 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="XMe-IB-vCe" kind="show" id="GzL-cw-FCl"/>
+                                    <action selector="sadPressed:" destination="aGY-8t-hwl" eventType="touchUpInside" id="zIq-fl-dbk"/>
+                                    <segue destination="YuY-kz-0Jx" kind="show" id="aG4-Oz-Lrb"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How is your new friend feeling?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PK1-4a-Mbu">
@@ -333,6 +290,32 @@
             </objects>
             <point key="canvasLocation" x="1850" y="417"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="S2d-t4-GnB">
+            <objects>
+                <viewController storyboardIdentifier="27" useStoryboardIdentifierAsRestorationIdentifier="YES" id="YuY-kz-0Jx" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="x95-1R-6Vl"/>
+                        <viewControllerLayoutGuide type="bottom" id="Fgh-hX-MTG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Rk9-kN-8fm">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ej7-Iz-u05">
+                                <rect key="frame" x="248" y="145" width="46" height="30"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="03Z-x6-bAf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2747" y="417"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Happy.png" width="174" height="258"/>
@@ -345,6 +328,7 @@
         <image name="test4.jpg" width="960" height="1440"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="aG4-Oz-Lrb"/>
         <segue reference="mF0-PS-bMU"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
