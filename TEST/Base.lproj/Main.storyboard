@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="13F1066" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -234,7 +234,7 @@
                                 </state>
                                 <connections>
                                     <action selector="madPressed:" destination="aGY-8t-hwl" eventType="touchUpInside" id="G6i-E9-tF8"/>
-                                    <segue destination="YuY-kz-0Jx" kind="show" id="CUT-Vz-6M2"/>
+                                    <segue destination="YuY-kz-0Jx" kind="show" identifier="mad" id="CUT-Vz-6M2"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mVb-3b-K5l">
@@ -244,7 +244,7 @@
                                 </state>
                                 <connections>
                                     <action selector="happyPressed:" destination="aGY-8t-hwl" eventType="touchUpInside" id="7te-Nb-OnN"/>
-                                    <segue destination="YuY-kz-0Jx" kind="show" id="Uz3-eg-YTm"/>
+                                    <segue destination="YuY-kz-0Jx" kind="show" identifier="happy" id="Uz3-eg-YTm"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9g9-pB-DIj">
@@ -254,7 +254,7 @@
                                 </state>
                                 <connections>
                                     <action selector="scaredPressed:" destination="aGY-8t-hwl" eventType="touchUpInside" id="mPz-Xa-d9L"/>
-                                    <segue destination="YuY-kz-0Jx" kind="show" id="N3e-9f-HlJ"/>
+                                    <segue destination="YuY-kz-0Jx" kind="show" identifier="scared" id="N3e-9f-HlJ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mOt-cn-aGE">
@@ -263,7 +263,8 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="YuY-kz-0Jx" kind="show" id="YXM-Zc-Ysf"/>
+                                    <action selector="worriedPressed:" destination="aGY-8t-hwl" eventType="touchUpInside" id="cUU-lO-e8i"/>
+                                    <segue destination="YuY-kz-0Jx" kind="show" identifier="worried" id="YXM-Zc-Ysf"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GKO-fM-qcn">
@@ -273,7 +274,7 @@
                                 </state>
                                 <connections>
                                     <action selector="sadPressed:" destination="aGY-8t-hwl" eventType="touchUpInside" id="zIq-fl-dbk"/>
-                                    <segue destination="YuY-kz-0Jx" kind="show" id="aG4-Oz-Lrb"/>
+                                    <segue destination="YuY-kz-0Jx" kind="show" identifier="sad" id="aG4-Oz-Lrb"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How is your new friend feeling?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PK1-4a-Mbu">
@@ -288,12 +289,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Tu-p3-Sku" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1850" y="417"/>
+            <point key="canvasLocation" x="1856" y="417"/>
         </scene>
-        <!--View Controller-->
+        <!--Answer Screen-->
         <scene sceneID="S2d-t4-GnB">
             <objects>
-                <viewController storyboardIdentifier="27" useStoryboardIdentifierAsRestorationIdentifier="YES" id="YuY-kz-0Jx" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="27" useStoryboardIdentifierAsRestorationIdentifier="YES" id="YuY-kz-0Jx" customClass="AnswerScreen" customModule="TEST" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="x95-1R-6Vl"/>
                         <viewControllerLayoutGuide type="bottom" id="Fgh-hX-MTG"/>
@@ -302,15 +303,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="test13.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Nf2-X3-o8f">
-                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CORRECT!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S9A-Ut-BHN">
-                                <rect key="frame" x="198" y="83" width="373" height="130"/>
-                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="75"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="n5A-CJ-REs">
                                 <rect key="frame" x="77" y="282" width="614" height="154"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -318,13 +310,56 @@
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ff5-ma-NHC">
+                                <rect key="frame" x="264" y="349" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="test13.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Nf2-X3-o8f">
+                                <rect key="frame" x="25" y="11" width="768" height="1024"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="sdfsad" translatesAutoresizingMaskIntoConstraints="NO" id="sS8-PU-0hT">
+                                <rect key="frame" x="69" y="280" width="631" height="266"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HBr-bA-ddQ">
+                                <rect key="frame" x="0.0" y="20" width="768" height="44"/>
+                                <items>
+                                    <navigationItem id="qKg-9Z-11D">
+                                        <barButtonItem key="leftBarButtonItem" title="Home" id="TBc-ET-RgX">
+                                            <connections>
+                                                <segue destination="BYZ-38-t0r" kind="show" id="E8d-yA-x7S"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qm8-EV-aQZ">
+                                <rect key="frame" x="184" y="71" width="451" height="120"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="HBr-bA-ddQ" firstAttribute="top" secondItem="Rk9-kN-8fm" secondAttribute="top" constant="20" id="1sO-O0-0z2"/>
+                            <constraint firstAttribute="trailing" secondItem="HBr-bA-ddQ" secondAttribute="trailing" id="e3J-P8-guy"/>
+                            <constraint firstItem="HBr-bA-ddQ" firstAttribute="leading" secondItem="Rk9-kN-8fm" secondAttribute="leading" id="kVd-8u-kCP"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="labelText" destination="qm8-EV-aQZ" id="QHB-qK-I53"/>
+                        <outlet property="textView" destination="sS8-PU-0hT" id="KJQ-ic-ePp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="03Z-x6-bAf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2747" y="417"/>
+            <point key="canvasLocation" x="2773" y="429"/>
         </scene>
     </scenes>
     <resources>
@@ -338,7 +373,8 @@
         <image name="test4.jpg" width="960" height="1440"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="aG4-Oz-Lrb"/>
+        <segue reference="E8d-yA-x7S"/>
+        <segue reference="N3e-9f-HlJ"/>
         <segue reference="mF0-PS-bMU"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>

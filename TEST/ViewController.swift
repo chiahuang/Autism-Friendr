@@ -77,12 +77,20 @@ class ViewController: UIViewController {
     @IBAction func scaredPressed(sender: AnyObject) {
         emotion = "scared"
     }
+    @IBAction func worriedPressed(sender: AnyObject) {
+        emotion = "worried"
+        
+    }
+
     
     
-    /*
+    
     override func prepareForSegue(segue: (UIStoryboardSegue!), sender: AnyObject!) {
-        println("here")
-    }*/
+        var svc = segue!.destinationViewController as AnswerScreen;
+            svc.emotion = emotion
+            svc.friendPressed = friendPressed
+        
+    }
     //@IBOutlet weak var button1: UIButton!
     
     override func viewDidLoad() {

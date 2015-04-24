@@ -36,7 +36,7 @@ class FriendScreen: UIViewController {
     
     override func prepareForSegue(segue: (UIStoryboardSegue!), sender: AnyObject!) {
             let answer = "happy"
-            var svc = segue!.destinationViewController as! ViewController;
+            var svc = segue!.destinationViewController as ViewController;
         svc.friendPressed = friendPicked;
     }
 
