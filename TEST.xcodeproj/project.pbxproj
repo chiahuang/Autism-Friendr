@@ -19,12 +19,6 @@
 		E2A674921AE8C09E00D3AC19 /* test13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2A674911AE8C09E00D3AC19 /* test13.jpg */; };
 		E2B9CB4F1AE9D77F00A6B53C /* test4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2B9CB4E1AE9D77F00A6B53C /* test4.jpg */; };
 		EDB7CE101AE5DDEC009CA374 /* HappySarah.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = EDB7CE0F1AE5DDEC009CA374 /* HappySarah.mp4 */; };
-		EDB7CE171AE5DFEC009CA374 /* Happy.png in Resources */ = {isa = PBXBuildFile; fileRef = EDB7CE111AE5DFEC009CA374 /* Happy.png */; };
-		EDB7CE181AE5DFEC009CA374 /* Mad.png in Resources */ = {isa = PBXBuildFile; fileRef = EDB7CE121AE5DFEC009CA374 /* Mad.png */; };
-		EDB7CE191AE5DFEC009CA374 /* Sad.png in Resources */ = {isa = PBXBuildFile; fileRef = EDB7CE131AE5DFEC009CA374 /* Sad.png */; };
-		EDB7CE1A1AE5DFEC009CA374 /* Scared.png in Resources */ = {isa = PBXBuildFile; fileRef = EDB7CE141AE5DFEC009CA374 /* Scared.png */; };
-		EDB7CE1B1AE5DFEC009CA374 /* test.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = EDB7CE151AE5DFEC009CA374 /* test.mp4 */; };
-		EDB7CE1C1AE5DFEC009CA374 /* Worried.png in Resources */ = {isa = PBXBuildFile; fileRef = EDB7CE161AE5DFEC009CA374 /* Worried.png */; };
 		EDF750351AE819EE0082EE97 /* FriendScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF750341AE819EE0082EE97 /* FriendScreen.swift */; };
 		EDF750361AE826360082EE97 /* SadJenny.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E23232C11AE73DCF00D33D36 /* SadJenny.mp4 */; };
 		EDF750371AE826360082EE97 /* ScaredDavid.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E23232C21AE73DD500D33D36 /* ScaredDavid.mp4 */; };
@@ -65,7 +59,6 @@
 		EDB7CE121AE5DFEC009CA374 /* Mad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Mad.png; path = Emotions/Mad.png; sourceTree = SOURCE_ROOT; };
 		EDB7CE131AE5DFEC009CA374 /* Sad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Sad.png; path = Emotions/Sad.png; sourceTree = SOURCE_ROOT; };
 		EDB7CE141AE5DFEC009CA374 /* Scared.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Scared.png; path = Emotions/Scared.png; sourceTree = SOURCE_ROOT; };
-		EDB7CE151AE5DFEC009CA374 /* test.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = test.mp4; path = Emotions/test.mp4; sourceTree = SOURCE_ROOT; };
 		EDB7CE161AE5DFEC009CA374 /* Worried.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Worried.png; path = Emotions/Worried.png; sourceTree = SOURCE_ROOT; };
 		EDF750341AE819EE0082EE97 /* FriendScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -132,7 +125,6 @@
 				EDB7CE121AE5DFEC009CA374 /* Mad.png */,
 				EDB7CE131AE5DFEC009CA374 /* Sad.png */,
 				EDB7CE141AE5DFEC009CA374 /* Scared.png */,
-				EDB7CE151AE5DFEC009CA374 /* test.mp4 */,
 				E23232C11AE73DCF00D33D36 /* SadJenny.mp4 */,
 				E23232C21AE73DD500D33D36 /* ScaredDavid.mp4 */,
 				E23232C01AE73DC800D33D36 /* MadBrian.mp4 */,
@@ -245,19 +237,13 @@
 				EDF750371AE826360082EE97 /* ScaredDavid.mp4 in Resources */,
 				E2B9CB4F1AE9D77F00A6B53C /* test4.jpg in Resources */,
 				EDF750381AE826360082EE97 /* MadBrian.mp4 in Resources */,
-				EDB7CE181AE5DFEC009CA374 /* Mad.png in Resources */,
-				EDB7CE191AE5DFEC009CA374 /* Sad.png in Resources */,
-				EDB7CE171AE5DFEC009CA374 /* Happy.png in Resources */,
 				E2A674841AE8B2E100D3AC19 /* test6.png in Resources */,
 				E25BE2DE1AE45C250078C504 /* Main.storyboard in Resources */,
 				E25BE2E31AE45C250078C504 /* LaunchScreen.xib in Resources */,
 				EDB7CE101AE5DDEC009CA374 /* HappySarah.mp4 in Resources */,
 				E2A674921AE8C09E00D3AC19 /* test13.jpg in Resources */,
-				EDB7CE1C1AE5DFEC009CA374 /* Worried.png in Resources */,
 				E2A674821AE8B20800D3AC19 /* test5.jpg in Resources */,
 				E25BE2E01AE45C250078C504 /* Images.xcassets in Resources */,
-				EDB7CE1B1AE5DFEC009CA374 /* test.mp4 in Resources */,
-				EDB7CE1A1AE5DFEC009CA374 /* Scared.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
