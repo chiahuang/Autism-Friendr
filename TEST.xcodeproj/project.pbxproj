@@ -19,16 +19,6 @@
 		E2A674921AE8C09E00D3AC19 /* test13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2A674911AE8C09E00D3AC19 /* test13.jpg */; };
 		E2B9CB4F1AE9D77F00A6B53C /* test4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2B9CB4E1AE9D77F00A6B53C /* test4.jpg */; };
 		EDB7CE101AE5DDEC009CA374 /* HappySarah.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = EDB7CE0F1AE5DDEC009CA374 /* HappySarah.mp4 */; };
-<<<<<<< HEAD
-		EDB7CE171AE5DFEC009CA374 /* Happy.png in Resources */ = {isa = PBXBuildFile; fileRef = EDB7CE111AE5DFEC009CA374 /* Happy.png */; };
-		EDB7CE181AE5DFEC009CA374 /* Mad.png in Resources */ = {isa = PBXBuildFile; fileRef = EDB7CE121AE5DFEC009CA374 /* Mad.png */; };
-		EDB7CE191AE5DFEC009CA374 /* Sad.png in Resources */ = {isa = PBXBuildFile; fileRef = EDB7CE131AE5DFEC009CA374 /* Sad.png */; };
-		EDB7CE1A1AE5DFEC009CA374 /* Scared.png in Resources */ = {isa = PBXBuildFile; fileRef = EDB7CE141AE5DFEC009CA374 /* Scared.png */; };
-		EDB7CE1B1AE5DFEC009CA374 /* test.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = EDB7CE151AE5DFEC009CA374 /* test.mp4 */; };
-		EDB7CE1C1AE5DFEC009CA374 /* Worried.png in Resources */ = {isa = PBXBuildFile; fileRef = EDB7CE161AE5DFEC009CA374 /* Worried.png */; };
-		EDB7CE1E1AE9D9FF009CA374 /* AnswerScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB7CE1D1AE9D9FF009CA374 /* AnswerScreen.swift */; };
-=======
->>>>>>> origin/master
 		EDF750351AE819EE0082EE97 /* FriendScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF750341AE819EE0082EE97 /* FriendScreen.swift */; };
 		EDF750361AE826360082EE97 /* SadJenny.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E23232C11AE73DCF00D33D36 /* SadJenny.mp4 */; };
 		EDF750371AE826360082EE97 /* ScaredDavid.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E23232C21AE73DD500D33D36 /* ScaredDavid.mp4 */; };
@@ -70,7 +60,6 @@
 		EDB7CE131AE5DFEC009CA374 /* Sad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Sad.png; path = Emotions/Sad.png; sourceTree = SOURCE_ROOT; };
 		EDB7CE141AE5DFEC009CA374 /* Scared.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Scared.png; path = Emotions/Scared.png; sourceTree = SOURCE_ROOT; };
 		EDB7CE161AE5DFEC009CA374 /* Worried.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Worried.png; path = Emotions/Worried.png; sourceTree = SOURCE_ROOT; };
-		EDB7CE1D1AE9D9FF009CA374 /* AnswerScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnswerScreen.swift; sourceTree = "<group>"; };
 		EDF750341AE819EE0082EE97 /* FriendScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -120,7 +109,6 @@
 				EDF750341AE819EE0082EE97 /* FriendScreen.swift */,
 				E25BE2DF1AE45C250078C504 /* Images.xcassets */,
 				E25BE2E11AE45C250078C504 /* LaunchScreen.xib */,
-				EDB7CE1D1AE9D9FF009CA374 /* AnswerScreen.swift */,
 				E25BE2D61AE45C250078C504 /* Supporting Files */,
 			);
 			path = TEST;
@@ -274,7 +262,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E25BE2DB1AE45C250078C504 /* ViewController.swift in Sources */,
-				EDB7CE1E1AE9D9FF009CA374 /* AnswerScreen.swift in Sources */,
 				EDF750351AE819EE0082EE97 /* FriendScreen.swift in Sources */,
 				E25BE2D91AE45C250078C504 /* AppDelegate.swift in Sources */,
 			);
